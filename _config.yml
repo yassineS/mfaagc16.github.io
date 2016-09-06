@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "MFAA General Conference 2016"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Moroccan Fulbright Alumni Association"
+description              : "MFAA General Conference 2016"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -30,7 +30,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : # "master", "gh-pages"
+  branch                 : master
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
