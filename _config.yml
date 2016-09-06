@@ -6,15 +6,15 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en"
+locale                   : "en-US"
 title                    : "MFAA General Conference 2016"
-title_separator          : "-"
+title_separator          : "|"
 name                     : "Moroccan Fulbright Alumni Association"
 description              : "MFAA General Conference 2016"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : "rabat_500x500.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -77,17 +77,17 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "MFAA"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
-  uri              :
+  bio              : "The Moroccan Fulbright Alumni Association"
+  location         : "Rabat, Morocco"
+  email            : "moroccanfulbrightalumni@gmail.com"
+  uri              : "http://www.mfaa.ma"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "https://www.facebook.com/groups/127133710681153/"
   foursquare       :
   github           :
   google_plus      :
@@ -97,7 +97,7 @@ author:
   linkedin         :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  #stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
   twitter          :
