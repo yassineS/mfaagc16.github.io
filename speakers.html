@@ -8,12 +8,5 @@ header:
   cta_url: /register.html
 ---
 
-{% include base_path %}
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% include paginator.html %}
+<h3 class="archive__subtitle">Speakers</h3>
+<p>The keynote speakers will be announced shortly.</p>
