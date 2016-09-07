@@ -10,7 +10,7 @@ main:
     url: /program
 
   - title: "Abstracts"
-    url: /Abstracts
+    url: /abstracts
 
   - title: "Speakers"
     url: /speakers
