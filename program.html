@@ -8,12 +8,17 @@ header:
   cta_url: /register.html
 ---
 
-{% include base_path %}
+<h3 class="archive__subtitle">Conference Program</h3>
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% include paginator.html %}
+<table style="width:100%">
+  <tr>
+    <th></th>
+    <th>08:00</th>
+    <th>08:30</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td><strong>Registration</strong></td>
+    <th>Formal Opening Session</th>
+  </tr>
+</table>
