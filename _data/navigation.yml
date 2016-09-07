@@ -15,5 +15,8 @@ main:
   - title: "Speakers"
     url: /speakers
 
+  - title: "Sponsors"
+    url: /sponsors
+
   - title: "Useful Information"
-    url: /Useful
+    url: /useful
